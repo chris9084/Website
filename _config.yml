@@ -3,7 +3,7 @@
 title: Christopher Buglione
 #description: subtitle | affiliations | motto
 
-baseurl: /Website #name of GitHub repository
+baseurl: / #name of GitHub repository
 url: "www.chrisbuglione.com" #custom url to be used instead of GitHub repository
 email: chris9084@gmail.com
 
@@ -54,7 +54,7 @@ sass:
 include:
   - _pages
   - assets
-  
+
 
 exclude:
   - README.md
