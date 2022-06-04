@@ -3,7 +3,7 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: Chris Profile.MP .jpg
+  image: Chris Profile.jpg
 published: true
 ---
 
