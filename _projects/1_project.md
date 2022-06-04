@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pitcher Visualization tool
+title: Pitcher Visualization Tool
 description: An Application Which Creates A Graph of The Pitcher's Stats
 ---
 

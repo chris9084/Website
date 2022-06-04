@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Click to Redirect to Project
-description: with no page entry here
-redirect: https://unsplash.com
+title: Project In Development
+description: Work In Progress
 ---
+
+Project In Development
+============
+
+This project is currently developed, come back later to see how it turns out.
