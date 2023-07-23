@@ -1,0 +1,145 @@
+/*Sudoku-Game-Style*/
+body{
+    font-family: arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    background-color: rgb(212, 212, 212);
+}
+.game_area{
+    margin: auto;
+}
+#title{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+}
+#Puzzle{
+    width: 450px;
+    height: 450px;
+    display:flex;
+    border:3px black solid;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#diffcult{
+    font-weight: bold;
+}
+
+.tile{
+    border:1px black solid;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.tile2{
+    border:1px black solid;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+}
+.inputs{
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#checker{
+    width: 450px;
+    height: 50px;
+    border:3px black solid;
+    background-color: lightsteelblue;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#SelectorBox{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#easy{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#medium{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#hard{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#diffcult{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#diff_area{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#ButtonBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#Generate{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+}
+#Check{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+}

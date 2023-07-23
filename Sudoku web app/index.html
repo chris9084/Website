@@ -1,0 +1,38 @@
+<!--
+Auto generating Sudoko
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no" >
+        <title>Sudoku Game</title>
+        <link rel="stylesheet" href="Style.css">
+        <script type="module" src="Code.js"></script>
+        <script type="module" src="BoardGenerator.js"></script>
+    </head>
+    <Body>
+        <h1 id = "title">S u d o k u</h1>
+        <br>
+        <div id="checker">Press Generate to Start</div>
+        <div class="game_area">
+            <div id="Puzzle" class="Puzzle"></div>
+            <br>
+            <div id="diff_area">
+                <div id="diffcult">Chose A Diffucltly</div>
+                <br>
+                <div id ="SelectorBox">
+                    <button id="easy" class="Selector">Easy</button>
+                    <button id="medium"class="Selector">Meduium</button>
+                    <button id="hard" class="Selector">Hard</button>
+                </div>
+            </div>    
+            <br>
+            <div id ="ButtonBox">
+            <button type="button" id="Generate" Class="Generate">Generate</button>
+            <button type="button" id="Check" Class="Check">Check</button>
+        </div>
+        </div>
+    </Body>
+</html>
